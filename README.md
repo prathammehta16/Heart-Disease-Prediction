@@ -67,7 +67,7 @@ Here the models we used to predict are:
 2. Decision Trees
 3. Random Forest
 4. K nearest neighbor.
-And their corresponding accuracy scores are:
+<br>And their corresponding accuracy scores are:
 <p align="center">
 <img src="https://github.com/prathammehta16/Heart-Disease-Prediction/blob/images/output.png">
 </p>
