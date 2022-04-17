@@ -1,4 +1,6 @@
 # Heart-Disease-Prediction
+### Concepts Used:
+EDA, Feature Extraction, Seaborn, Pandas, Numpy, Inter-Quartile Range, Z-score, Pearson's Correlation coefficient, Spearman's Correlation coefficient, Logistic regression, Decision trees, Random forest, K nearest neighbours.
 ### Data:
 [Data](https://www.kaggle.com/datasets/rashikrahmanpritom/heart-attack-analysis-prediction-dataset)
 - Age : Age of the patient
@@ -65,7 +67,7 @@ Here the models we used to predict are:
 2. Decision Trees
 3. Random Forest
 4. K nearest neighbor.
-<br> And their corresponding accuracy scores are:
+And their corresponding accuracy scores are:
 <p align="center">
 <img src="https://github.com/prathammehta16/Heart-Disease-Prediction/blob/images/output.png">
 </p>
