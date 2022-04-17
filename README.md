@@ -10,7 +10,7 @@
 - ca: number of major vessels (0-3)
 
 - cp : Chest Pain type chest pain type
-a)Value 1: typical angina
+<br>a)Value 1: typical angina
 <br>b)Value 2: atypical angina
 <br>c)Value 3: non-anginal pain
 <br>d)Value 4: asymptomatic
@@ -18,7 +18,7 @@ a)Value 1: typical angina
 - chol : cholestoral in mg/dl fetched via BMI sensor
 - fbs : (fasting blood sugar > 120 mg/dl) (1 = true; 0 = false)
 - rest_ecg : resting electrocardiographic results
-a)Value 0: normal
+<br>a)Value 0: normal
 <br>b)Value 1: having ST-T wave abnormality (T wave inversions and/or ST elevation or depression of > 0.05 mV)
 <br>c)Value 2: showing probable or definite left ventricular hypertrophy by Estes' criteria
 <br>d)thalach : maximum heart rate achieved
@@ -34,7 +34,7 @@ Detecting Outliers using Seaborn's Boxplots:
 
 ## Removing Outliers:
 1. Removing the outliers using IQR(Inter-Quartile Range):
-In IQR the data points that are not in the range (lower limit, upper limit) are considered as outliers.
+<br>In IQR the data points that are not in the range (lower limit, upper limit) are considered as outliers.
 - upper limit = Q3 + 1.5 * IQR
 - lower limit = Q1 – 1.5 * IQR
 Afetr performing IQR, we found that 228 records still remain.
@@ -61,11 +61,12 @@ As after performing Z-score we have more number of records, we preferred Z-score
 
 ## Training Models:
 Here the models we used to predict are:
-1.Logistic Regression
-2.Decision Trees
-3.Random Forest
-4.K nearest neighbor.
+1. Logistic Regression
+2. Decision Trees
+3. Random Forest
+4. K nearest neighbor.
 <br> And their corresponding accuracy scores are:
 <p align="center">
 <img src="https://github.com/prathammehta16/Heart-Disease-Prediction/blob/images/output.png">
 </p>
+<br> Hence, after removeing the outliers we conclude that the Logistic regression algorithm is best suitable for this problem.
