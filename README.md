@@ -50,3 +50,11 @@ As after performing Z-score we have more number of records, we preferred Z-score
 <p align="center">
 <img src="https://github.com/prathammehta16/Heart-Disease-Prediction/blob/images/sns.png">
 </p>
+2. Finding Correlation using Pearson's Correlation:
+<p align="center">
+<img src="https://github.com/prathammehta16/Heart-Disease-Prediction/blob/images/pearson.png">
+</p>
+3. Finding correlation using Spearman's correlation:
+<p align="center">
+<img src="https://github.com/prathammehta16/Heart-Disease-Prediction/blob/images/spearman.png">
+</p>
