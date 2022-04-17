@@ -11,11 +11,11 @@
 
 - cp : Chest Pain type chest pain type
 
-a)Value 1: typical angina
-b)Value 2: atypical angina
-c)Value 3: non-anginal pain
-d)Value 4: asymptomatic
-- trtbps : resting blood pressure (in mm Hg)
+<br>a)Value 1: typical angina
+<br>b)Value 2: atypical angina
+<br>c)Value 3: non-anginal pain
+<br>d)Value 4: asymptomatic
+<br>- trtbps : resting blood pressure (in mm Hg)
 
 - chol : cholestoral in mg/dl fetched via BMI sensor
 
@@ -23,10 +23,14 @@ d)Value 4: asymptomatic
 
 - rest_ecg : resting electrocardiographic results
 
-a)Value 0: normal
-b)Value 1: having ST-T wave abnormality (T wave inversions and/or ST elevation or depression of > 0.05 mV)
-c)Value 2: showing probable or definite left ventricular hypertrophy by Estes' criteria
-d)thalach : maximum heart rate achieved
+<br>a)Value 0: normal
+<br>b)Value 1: having ST-T wave abnormality (T wave inversions and/or ST elevation or depression of > 0.05 mV)
+<br>c)Value 2: showing probable or definite left ventricular hypertrophy by Estes' criteria
+<br>d)thalach : maximum heart rate achieved
 
-- target : 0= less chance of heart attack 1= more chance of heart attack
+<br>- target : 0= less chance of heart attack 1= more chance of heart attack
+
+### EDA:
+<p> First, we saw here the datatype of the parameters using data.info() then we checked the number of duplicate records in the dataset and then removed it.Then
+  we also checked for the NULL values in the dataset using data.isnull() and then removed the NULL values.</p>
 
