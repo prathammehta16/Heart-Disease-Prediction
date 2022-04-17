@@ -47,4 +47,6 @@ As after performing Z-score we have more number of records, we preferred Z-score
 
 ## Correlation:
 1. Finding Correlation using Seaborn's Heatmap:
-<img src="https://github.com/prathammehta16/Heart-Disease-Prediction/blob/images/sns.png", align="center">
+<p align="center">
+<img src="https://github.com/prathammehta16/Heart-Disease-Prediction/blob/images/sns.png">
+</p>
